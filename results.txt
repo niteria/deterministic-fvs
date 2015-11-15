@@ -1,0 +1,226 @@
+[12 of 12] Compiling Main             ( Main.hs, Main.o )
+Linking Main ...
+NoUnion test1
+         109,408 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test1
+         109,688 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test1
+         109,600 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test1
+         108,368 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test1
+         109,600 bytes allocated in the heap
+real 0.00
+
+EtaReduced test1
+         117,760 bytes allocated in the heap
+real 0.00
+
+Set test1
+          81,008 bytes allocated in the heap
+real 0.00
+
+Generic test1
+         123,016 bytes allocated in the heap
+real 0.00
+
+NoUnion test2
+         117,344 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test2
+         117,624 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test2
+         117,536 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test2
+         116,200 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test2
+         117,536 bytes allocated in the heap
+real 0.00
+
+EtaReduced test2
+         332,336 bytes allocated in the heap
+real 0.00
+
+Set test2
+         382,728 bytes allocated in the heap
+real 0.00
+
+Generic test2
+         499,352 bytes allocated in the heap
+real 0.00
+
+NoUnion test3
+      50,449,920 bytes allocated in the heap
+real 0.84
+
+NoUnionForce test3
+      50,450,200 bytes allocated in the heap
+real 0.90
+
+NoUnionLazy test3
+      50,450,112 bytes allocated in the heap
+real 0.89
+
+NoUnionStrictTuple test3
+      50,448,776 bytes allocated in the heap
+real 0.93
+
+EtaExpanded test3
+      50,450,112 bytes allocated in the heap
+real 0.89
+
+EtaReduced test3
+   3,661,740,240 bytes allocated in the heap
+real 3.66
+
+Set test3
+   4,613,839,528 bytes allocated in the heap
+real 1.37
+
+Generic test3
+   6,488,695,608 bytes allocated in the heap
+real 4.98
+
+NoUnion test4
+         253,048 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test4
+         253,328 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test4
+         253,240 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test4
+         252,040 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test4
+         253,240 bytes allocated in the heap
+real 0.00
+
+EtaReduced test4
+         701,376 bytes allocated in the heap
+real 0.00
+
+Set test4
+         818,304 bytes allocated in the heap
+real 0.00
+
+Generic test4
+       1,042,632 bytes allocated in the heap
+real 0.00
+
+NoUnion test5
+         309,848 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test5
+         310,128 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test5
+         310,040 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test5
+         308,840 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test5
+         310,040 bytes allocated in the heap
+real 0.00
+
+EtaReduced test5
+         719,712 bytes allocated in the heap
+real 0.00
+
+Set test5
+         739,024 bytes allocated in the heap
+real 0.00
+
+Generic test5
+         980,968 bytes allocated in the heap
+real 0.00
+
+NoUnion test6
+         549,400 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test6
+         549,680 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test6
+         549,592 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test6
+         548,424 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test6
+         549,592 bytes allocated in the heap
+real 0.00
+
+EtaReduced test6
+       1,773,704 bytes allocated in the heap
+real 0.00
+
+Set test6
+       2,133,000 bytes allocated in the heap
+real 0.00
+
+Generic test6
+       2,706,960 bytes allocated in the heap
+real 0.00
+
+NoUnion test7
+         606,120 bytes allocated in the heap
+real 0.00
+
+NoUnionForce test7
+         606,400 bytes allocated in the heap
+real 0.00
+
+NoUnionLazy test7
+         606,312 bytes allocated in the heap
+real 0.00
+
+NoUnionStrictTuple test7
+         605,144 bytes allocated in the heap
+real 0.00
+
+EtaExpanded test7
+         606,312 bytes allocated in the heap
+real 0.00
+
+EtaReduced test7
+       1,726,424 bytes allocated in the heap
+real 0.00
+
+Set test7
+       2,086,488 bytes allocated in the heap
+real 0.00
+
+Generic test7
+       2,579,680 bytes allocated in the heap
+real 0.00
+

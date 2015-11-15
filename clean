@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -e 
+find . | grep '\.o$' | xargs rm 
+find . | grep '\.hi$' | xargs rm 
+rm Main

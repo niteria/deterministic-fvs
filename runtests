@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+ghc -O2 Main.hs -rtsopts
+
+TESTS=$(./Main list-testcases)
+FUNCTIONS=$(./Main list-functions)
+
+for t in $TESTS; do
+  for fun in $FUNCTIONS; do
+    echo $fun $t
+    /usr/bin/time -p ./Main $fun $t +RTS -V0 -s -RTS 2>&1 | grep -E '(allocated|real)'
+    echo
+  done
+done
